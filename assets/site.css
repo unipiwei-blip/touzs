@@ -590,6 +590,7 @@ footer{padding:28px 0 18px;border-top:1px solid var(--hair-soft);margin-top:clam
   background:linear-gradient(180deg,transparent,rgba(124,58,237,.05))}
 .foot-grid{display:grid;grid-template-columns:1.35fr 1fr 1.1fr;gap:26px;align-items:center;text-align:center}
 .foot-brand-col,.foot-col{text-align:center}
+.foot-brand-col .tiny a{color:var(--text-2);text-decoration:underline;text-underline-offset:2px}
 .foot-brand p{text-align:center;margin-left:auto;margin-right:auto}
 .foot-address{text-align:center;margin-top:12px;font-size:12.5px;color:var(--text-2);line-height:1.6}
 @media (max-width:960px){.foot-grid{grid-template-columns:repeat(2,1fr);gap:24px}}
@@ -673,3 +674,9 @@ footer{padding:28px 0 18px;border-top:1px solid var(--hair-soft);margin-top:clam
   .carousel-track,.faq-a{transition:none}
   .btn:hover,.btn-primary:hover,.btn-ghost:hover,.back-top:hover{transform:none}
 }
+
+/* =========================================================
+   SITE MAP COMPACT RHYTHM
+   ========================================================= */
+.compact-section{padding:clamp(46px,6vw,78px) 0}
+.compact-section .section-head{margin-bottom:38px}
