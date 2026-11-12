@@ -1,4 +1,18 @@
+# robots.txt for www.touzs.com
+# CSS, JS and images stay crawlable so Baidu and Google can render the pages.
+# 404.html is the HTTP 404 template for unknown paths and is excluded from the sitemap.
+
 User-agent: *
 Allow: /
+Allow: /assets/
 
+User-agent: Baiduspider
+Allow: /
+Allow: /assets/
+
+User-agent: Googlebot
+Allow: /
+Allow: /assets/
+
+Host: www.touzs.com
 Sitemap: https://www.touzs.com/sitemap.xml

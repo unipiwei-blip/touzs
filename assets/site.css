@@ -618,7 +618,7 @@ footer{padding:28px 0 18px;border-top:1px solid var(--hair-soft);margin-top:clam
   background:#fff;padding:4px;flex:none}
 .foot-qr .qt b{display:block;font-size:13.5px;white-space:nowrap;margin-bottom:6px}
 .foot-qr .qt span{display:block;font-size:12px;color:var(--text-3);line-height:1.7}
-.friend-links{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:10px 18px;
+.friend-links{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:8px 14px;
   margin-top:12px;padding:8px 0;border-top:1px solid var(--hair-soft);font-size:12.5px}
 .friend-links .fl-label{color:var(--text-3);white-space:nowrap}
 .friend-links a{color:var(--text-2);white-space:nowrap;transition:opacity .3s var(--ease-out-quart)}
