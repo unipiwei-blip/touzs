@@ -687,3 +687,40 @@ footer{padding:28px 0 18px;border-top:1px solid var(--hair-soft);margin-top:clam
    ========================================================= */
 .wx-share-thumb{position:absolute;top:0;left:-9999px;width:300px;height:300px;
   pointer-events:none;z-index:-1}
+
+
+/* =========================================================
+   NEWS COLUMN
+   ========================================================= */
+.news-cats{margin:6px auto 34px}
+.chip.active{background:var(--grad);border-color:transparent;color:#fff}
+.news-list{max-width:900px;margin:0 auto;display:grid;gap:14px}
+.news-item{display:block;padding:22px 24px;border-radius:var(--r-lg);text-align:center;
+  background:var(--glass);border:1px solid var(--hair);
+  transition:transform .4s var(--ease-out-quart)}
+.news-item:hover{transform:translateY(-5px)}
+.news-meta{display:flex;justify-content:center;align-items:center;gap:10px;flex-wrap:wrap;
+  font-size:12.5px;color:var(--text-3)}
+.news-cat{color:#E9D5FF}
+.news-pin{padding:2px 9px;border-radius:var(--r-pill);background:var(--grad);color:#fff;font-size:11.5px}
+.news-item h3{margin:12px 0 8px;font-size:18px;font-weight:680;white-space:nowrap}
+.news-item p{margin:0;color:var(--text-2);font-size:14px;line-height:1.6}
+.news-pager{display:flex;justify-content:center;align-items:center;gap:10px;margin:38px auto 0;flex-wrap:wrap}
+.pg{min-width:42px;height:42px;padding:0 14px;display:inline-flex;align-items:center;justify-content:center;
+  border-radius:12px;font-size:14px;background:var(--glass);border:1px solid var(--hair);color:var(--text-2);
+  transition:transform .3s var(--ease-out-quart)}
+a.pg:hover{transform:translateY(-3px)}
+.pg.on{background:var(--grad);color:#fff;border-color:transparent}
+.pg.disabled{opacity:.35;pointer-events:none}
+.news-title{margin:0 0 16px;font-size:clamp(30px,4.2vw,52px);font-weight:800;
+  line-height:1.25;letter-spacing:-.025em}
+.article-date{margin:0 0 18px;color:var(--text-3);font-size:14px}
+.article-figure{max-width:900px;margin:0 auto}
+.article-figure img{width:100%;height:auto;object-fit:contain;display:block;border-radius:var(--r-lg);
+  border:1px solid var(--hair)}
+.article-body{max-width:860px;margin:0 auto;text-align:center}
+.article-body p{margin:0 0 20px;color:var(--text-2);font-size:16px;line-height:1.95}
+.article-body p.article-h{margin:26px 0;padding:16px 20px;border-radius:var(--r-md);
+  background:rgba(124,58,237,.12);border:1px solid rgba(124,58,237,.28);
+  color:#E9D5FF;font-weight:600}
+@media (max-width:620px){.news-item h3{white-space:normal}}
