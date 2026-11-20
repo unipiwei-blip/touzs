@@ -501,6 +501,7 @@ section{position:relative;padding:var(--section-y) 0}
 .prose{max-width:860px;margin:0 auto;text-align:center}
 .prose p{color:var(--text-2);font-size:16px;line-height:1.85;margin:0 0 18px}
 .prose strong{color:var(--text);font-weight:650}
+.prose a{color:#DDD6FE;text-decoration:underline;text-underline-offset:3px}
 .card-grid{display:grid;gap:18px}
 .card-grid.c2{grid-template-columns:repeat(2,minmax(0,1fr))}
 .card-grid.c3{grid-template-columns:repeat(3,minmax(0,1fr))}
