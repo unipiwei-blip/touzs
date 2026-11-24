@@ -117,37 +117,6 @@
   }
   window.gxToast = showToast;
 
-  /* ---------- CONTACT FORM (loading + toast) ---------- */
-  var contact = document.getElementById('contactForm');
-  if (contact) {
-    contact.addEventListener('submit', function (e) {
-      e.preventDefault();
-      var name = contact.querySelector('[name="name"]');
-      var phone = contact.querySelector('[name="phone"]');
-      var btn = contact.querySelector('[type="submit"]');
-      var label = btn && btn.querySelector('.btn-label');
-      if (!name || !name.value.trim()) {
-        showToast('请填写您的称呼', false);
-        name && name.focus();
-        return;
-      }
-      if (!phone || !/^[0-9+\-\s]{7,20}$/.test(phone.value.trim())) {
-        showToast('请填写有效的联系电话', false);
-        phone && phone.focus();
-        return;
-      }
-      var original = label ? label.innerHTML : '';
-      if (btn) btn.disabled = true;
-      if (label) label.innerHTML = '<span class="spin" aria-hidden="true"></span><span>提交中</span>';
-      setTimeout(function () {
-        if (btn) btn.disabled = false;
-        if (label) label.innerHTML = original;
-        contact.reset();
-        showToast('需求已记录，顾问将尽快与您联系', true);
-      }, 1100);
-    });
-  }
-
   /* ---------- FAQ ACCORDION ---------- */
   document.querySelectorAll('.faq-item').forEach(function (item) {
     var btn = item.querySelector('.faq-q');
