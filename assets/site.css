@@ -732,6 +732,8 @@ a.pg:hover{transform:translateY(-3px)}
 .article-figure{max-width:900px;margin:0 auto}
 .article-figure img{width:100%;height:auto;object-fit:contain;display:block;
   border-radius:var(--r-lg);border:1px solid var(--hair)}
+.article-figure.inline{margin:26px auto}
+.article-figure.inline img{border:1px solid var(--hair)}
 .article-body{max-width:860px;margin:0 auto;text-align:left}
 .article-body p{margin:0 0 20px;color:var(--text-2);font-size:16px;line-height:1.95;text-indent:2em}
 .article-body p.article-h{margin:26px 0;padding:16px 20px;border-radius:var(--r-md);
