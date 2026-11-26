@@ -736,8 +736,6 @@ a.pg:hover{transform:translateY(-3px)}
 .article-figure.inline img{border:1px solid var(--hair)}
 .article-body{max-width:860px;margin:0 auto;text-align:left}
 .article-body p{margin:0 0 20px;color:var(--text-2);font-size:16px;line-height:1.95;text-indent:2em}
-.article-body p.article-h{margin:26px 0;padding:16px 20px;border-radius:var(--r-md);
-  background:rgba(124,58,237,.12);border:1px solid rgba(124,58,237,.28);
-  color:#E9D5FF;font-weight:600}
+.article-body p.article-h{margin:26px 0;color:var(--text-2);font-weight:600;text-indent:2em}
 @media (max-width:960px){.news-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:620px){.pin-grid,.news-grid{grid-template-columns:1fr}}
